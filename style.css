@@ -4,14 +4,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.homepage {
+    text-align: center;
+}
+
 h1,
 h2 {
     color: yellow;
     font-weight: bold;
-}
-
-a {
-    color: rgb(255, 255, 0);
 }
 
 img {
@@ -19,9 +19,25 @@ img {
     width: auto;
 }
 
-.page {
+.title-home {
+    padding-bottom: 8px;
+    border-bottom: 8px double yellow;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+.page-link {
+    color: rgb(255, 255, 0);
     font-size: 20px;
     font-weight: bold;
+    display: inline-block;
+}
+
+.page-link.mid {
+    margin: 8px;
 }
 
 .disclaimer {
